@@ -19,4 +19,9 @@ class MainActivity : AppCompatActivity() {
     }
     //Commit N2.
     //Created Project.
+//
+//    For App "Notes" in TeachMeSkills (group AN18-onl). This is Branch for Lesson 16.
+//
+//    Commit N3. Add Screen 31. And all is working.
+
 }
