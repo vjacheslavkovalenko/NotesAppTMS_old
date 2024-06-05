@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/background_31"
+        android:src="@drawable/background_36"
         android:scaleType="centerCrop"/>
 
     <TextView
@@ -34,7 +34,6 @@
             android:layout_width="match_parent"
             android:layout_height="52dp"
             android:textSize="18sp"
-            android:paddingStart="20dp"
             android:layout_gravity="center|top"
             android:hint="@string/hint_email_login" />
 
@@ -68,6 +67,7 @@
             app:cornerRadius="8dp"            />
 
         <TextView
+            android:id="@+id/id_text_return"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_return"
