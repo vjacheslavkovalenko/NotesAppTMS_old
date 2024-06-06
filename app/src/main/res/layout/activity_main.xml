@@ -10,43 +10,42 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/background_31"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_31" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/corners">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="218dp"
             android:fontFamily="@font/red_hat_display_medium"
             android:text="@string/logo_name"
-            android:textSize="96sp"
-            android:layout_marginTop="218dp"/>
+            android:textSize="96sp" />
 
 
         <Button
             android:id="@+id/id_button_discover"
             android:layout_width="263dp"
             android:layout_height="50dp"
-            android:text="@string/button_discover"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="200dp"
             android:background="#9378FF"
-            app:cornerRadius="8dp"            />
+            android:text="@string/button_discover"
+            app:cornerRadius="8dp" />
 
         <TextView
             android:id="@+id/id_text_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_login"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:text="@string/text_login" />
 
     </LinearLayout>
 

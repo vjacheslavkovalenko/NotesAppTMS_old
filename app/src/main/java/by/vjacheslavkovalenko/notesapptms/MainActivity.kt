@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val textLogin = findViewById<TextView>(R.id.id_text_login)
 
         buttonDiscover.setOnClickListener {
-            val intent = Intent (this, SignupActivity::class.java)
+            val intent = Intent(this, SignupActivity::class.java)
             startActivity(intent)
         }
 

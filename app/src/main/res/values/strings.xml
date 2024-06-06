@@ -16,6 +16,7 @@
     <string name="text_return">Return to Sign-up</string>
 
     <string name="error_empty_text">Empty text field</string>
-    <string name="error_length_text">Length should be min 6 max 25</string>
+    <string name="error_length_text">Length should be min 3 max 255</string>
+    <string name="error_simbols_text">Error simbols</string>
 
 </resources>

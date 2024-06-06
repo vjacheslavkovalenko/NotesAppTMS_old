@@ -10,17 +10,17 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/background_36"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_36" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/red_hat_display_medium"
-        android:textSize="30sp"
         android:layout_gravity="center|top"
         android:layout_marginTop="100dp"
-        android:text="@string/title_login" />
+        android:fontFamily="@font/red_hat_display_medium"
+        android:text="@string/title_login"
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="320dp"
@@ -33,46 +33,44 @@
             android:id="@+id/id_email_login"
             android:layout_width="match_parent"
             android:layout_height="52dp"
-            android:textSize="18sp"
             android:layout_gravity="center|top"
-            android:hint="@string/hint_email_login" />
+            android:hint="@string/hint_email_login"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/id_password_login"
             android:layout_width="match_parent"
             android:layout_height="52dp"
-            android:textSize="18sp"
             android:layout_gravity="center|top"
             android:layout_marginTop="20dp"
-            android:hint="@string/hint_password_login" />
+            android:hint="@string/hint_password_login"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_gravity="bottom|center"
         android:layout_marginBottom="70dp"
-        android:background="@drawable/corners">
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/id_button_login"
             android:layout_width="263dp"
             android:layout_height="50dp"
-            android:text="@string/button_login"
             android:layout_gravity="center_horizontal"
-
             android:background="#9378FF"
-            app:cornerRadius="8dp"            />
+            android:text="@string/button_login"
+            app:cornerRadius="8dp" />
 
         <TextView
             android:id="@+id/id_text_return"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_return"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:text="@string/text_return" />
 
     </LinearLayout>
 
