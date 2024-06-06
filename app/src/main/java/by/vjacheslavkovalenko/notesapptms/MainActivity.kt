@@ -33,6 +33,6 @@ class MainActivity : AppCompatActivity() {
 //
 //    For App "Notes" in TeachMeSkills (group AN18-onl). This is Branch for Lesson 16.
 //
-//    Commit N3. Add Screen 31. And all is working.
+//   Commit N4. Add Screen 36. Add transitions. And all is working.
 
 }

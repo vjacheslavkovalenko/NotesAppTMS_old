@@ -14,4 +14,8 @@
     <string name="text_login">You have an account ? <b>Log-in</b></string>
     <string name="text_signup">You have an account ? <b>Log-in</b></string>
     <string name="text_return">Return to Sign-up</string>
+
+    <string name="error_empty_text">Empty text field</string>
+    <string name="error_length_text">Length should be min 6 max 25</string>
+
 </resources>

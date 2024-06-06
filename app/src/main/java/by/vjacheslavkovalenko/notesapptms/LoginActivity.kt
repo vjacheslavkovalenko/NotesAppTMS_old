@@ -19,6 +19,24 @@ class LoginActivity : AppCompatActivity() {
         val textReturn = findViewById<TextView>(R.id.id_text_return)
 //        val buttonLogin = findViewById<Button>(R.id.id_button_login)
 
+        emailLogin.doAfterTextChanged { text ->
+            var validationResultEmail : ValidResult =validationLoginText(text.toString())
+            if (validationResultEmail is ValidResult.Valid) {
+                  emailLogin.error = null
+            } else {
+                Toast.makeText(this, "Error Email", Toast.LENGTH_LONG).show()
+            }
+        }
+
+//        emailField.doAfterTextChanged { text ->
+//            if (text.isNullOrEmpty() || text.trim().isEmpty()) {
+//                Toast.makeText(this, "field is required", Toast.LENGTH_SHORT).show()
+//            }
+//        }
+
+
+
+
 //        emailLogin.doAfterTextChanged { text ->
 //            val str = text.toString()
 //            if (!Patterns.EMAIL_ADDRESS.matcher(str).matches()) {
