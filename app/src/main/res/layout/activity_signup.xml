@@ -16,11 +16,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/red_hat_display_medium"
-        android:textSize="30sp"
         android:layout_gravity="center|top"
         android:layout_marginTop="100dp"
-        android:text="@string/title_signup" />
+        android:fontFamily="@font/red_hat_display_medium"
+        android:text="@string/title_signup"
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="320dp"
@@ -33,62 +33,62 @@
             android:id="@+id/id_first_name"
             android:layout_width="match_parent"
             android:layout_height="52dp"
-            android:textSize="18sp"
             android:layout_gravity="center|top"
-            android:hint="@string/hint_first_name" />
+            android:hint="@string/hint_first_name"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/id_last_name"
             android:layout_width="match_parent"
             android:layout_height="52dp"
-            android:textSize="18sp"
             android:layout_gravity="center|top"
             android:layout_marginTop="20dp"
-            android:hint="@string/hint_last_name" />
+            android:hint="@string/hint_last_name"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/id_email_signup"
             android:layout_width="match_parent"
             android:layout_height="52dp"
-            android:textSize="18sp"
-            android:layout_marginTop="20dp"
             android:layout_gravity="center|top"
-            android:hint="@string/hint_email_login" />
+            android:layout_marginTop="20dp"
+            android:hint="@string/hint_email_login"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/id_password_signup"
             android:layout_width="match_parent"
             android:layout_height="52dp"
-            android:textSize="18sp"
             android:layout_gravity="center|top"
             android:layout_marginTop="20dp"
-            android:hint="@string/hint_password_login" />
+            android:hint="@string/hint_password_login"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_gravity="bottom|center"
-        android:layout_marginBottom="70dp">
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/id_button_signup"
             android:layout_width="263dp"
             android:layout_height="50dp"
-            android:text="@string/button_signup"
             android:layout_gravity="center_horizontal"
             android:background="#9378FF"
-            app:cornerRadius="8dp"            />
+            android:text="@string/button_signup"
+            app:cornerRadius="8dp" />
 
         <TextView
             android:id="@+id/id_text_signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_signup"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp"
+            android:text="@string/text_signup" />
 
     </LinearLayout>
 
